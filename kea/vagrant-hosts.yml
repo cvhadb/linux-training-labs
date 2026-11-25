@@ -38,3 +38,8 @@
 - name: kea-el
   box: bento/almalinux-10
   ip: 192.168.42.254
+
+- name: client
+  box: bento/debian-13
+  ip: 192.168.42.10
+  auto_config: false

@@ -1,0 +1,10 @@
+---
+- name: deb
+  box: bento/debian-13
+  intnet: true
+  auto_config: false
+
+- name: alma
+  box: bento/almalinux-10
+  intnet: true
+  auto_config: false

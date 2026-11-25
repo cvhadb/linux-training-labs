@@ -46,3 +46,17 @@
       size: '5GB'
     - name: 'sata03'
       size: '5GB'
+
+- name: raidlab
+  box: bento/almalinux-9
+  ip: 192.168.56.6
+  memory: 1024
+  disks:
+    - name: 'lab01'
+      size: '8GB'
+#    - name: 'lab02'
+#      size: '8GB'
+#    - name: 'lab03'
+#      size: '8GB'
+    - name: 'lab04'
+      size: '8GB'
